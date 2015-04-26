@@ -38,7 +38,7 @@ or
 
     android list targets | grep id:  # Produces just a list of available target names.
 
-![android list targets](./docimages/android-show-target.png)
+![android list targets](./docimages/android-list-target.png)
 
 From this list, you want to select the highest value you currently have installed.  If you don't have any installed or need to upgrade, you can just type
 
