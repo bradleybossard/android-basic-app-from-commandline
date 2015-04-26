@@ -55,7 +55,33 @@ The project can be create using the following command
 
 ![android create](./docimages/android-create-project.gif)
 
+This process will create a bunch of boilerplate code to get us started with a basic project.
 
+### Create a debug build
+
+Ok, we've created our directory.  Now we need to change into it
+
+    cd MyExampleProject
+
+and from here, you should see a similar directory listing
+
+![android initial directories](./docimages/android-initial-directories.png)
+
+I won't go into too much detail about the files here, that is a whole other tutorial.  The most important items are
+
+* AndroidManifest.xml - This is where you detail important app info (name, permission, etc).
+* src/ - This directory will house your Java source code.
+* res/ - This directory contians resource files, including layouts, images, and string values.
+
+To compile and build a debug version of our app, just type
+
+    ant debug
+
+![android create](./docimages/android-ant-debug-build.gif)
+
+which goes through a series of build steps, and bundles your code + resources into single file, located at
+
+    bin/ExampleProject-debug.apk
 
 
 
