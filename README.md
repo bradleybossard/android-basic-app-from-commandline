@@ -85,11 +85,18 @@ which goes through a series of build steps, and bundles your code + resources in
 
 ### Install the app on your device
 
-Once the app is built, it's time to install and run it on your device.  Plug in your Android device via USB, and make sure it is enabled for USB debugging.  Then, run the following command
+Once the app is built, it's time to install and run it on your device.  Plug in your Android device via USB, and make sure it is enabled for USB debugging.
+
+_TODO(bradleybossard): Add gif/description for enabling developer mode / USB debugging._
+
+Then, run the following command
 
 ![adb devices](./docimages/android-adb-devices.png)
 
-![adb install](./docimages/android-install.png)
+where you should see atleast one device listed.  If not, you may need to research installing
+special drivers for your particular phone/OS combo.
+
+![adb install](./docimages/android-adb-install.png)
 
 You may need to create a shortcut for your app on the homescreen (like in this .gif).  Upon running the app, you will see the basic Hello World app in all it's glory!
 
