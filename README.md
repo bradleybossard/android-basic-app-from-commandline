@@ -1,11 +1,11 @@
 # android-basic-app-from-commandline
 
-## purpose
+## Purpose
 I've written several Android apps, but I started Android development using early,
 alpha versions of Android Studio.  I ran across an old tutorial today that uses
 all command line tools for Android dev, and thought it would be fun to check it out.
 
-## creating an android app from scratch using the cli (command-line) tools
+## Creating an android app from scratch using the cli (command-line) tools
 
 ### Install the Android SDK
 
@@ -83,6 +83,15 @@ which goes through a series of build steps, and bundles your code + resources in
 
     bin/ExampleProject-debug.apk
 
+### Install the app on your device
 
+Once the app is built, it's time to install and run it on your device.  Plug in your Android device via USB, and make sure it is enabled for USB debugging.  Then, run the following command
 
+![adb devices](./docimages/android-adb-devices.png)
+
+![adb install](./docimages/android-install.png)
+
+You may need to create a shortcut for your app on the homescreen (like in this .gif).  Upon running the app, you will see the basic Hello World app in all it's glory!
+
+![android running](./docimages/android-running-app.gif)
 
