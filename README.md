@@ -3,7 +3,11 @@
 ## Purpose
 I've written several Android apps, but I started Android development using early,
 alpha versions of Android Studio.  I ran across an old tutorial today that uses
-all command line tools for Android dev, and thought it would be fun to check it out.
+all command line tools for Android dev, and thought it would be fun to check it out
+and document it along the way for others.  Even though Android Studio is really good,
+it's worthwhile sometimes to try out a command line approach as well, as it can
+help further your understanding of whats going on under the hood.  Also, it's a chance
+for me to improve my Markdown and GIF/screenshot creation workflow.
 
 ## Creating an android app from scratch using the cli (command-line) tools
 
